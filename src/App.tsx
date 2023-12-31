@@ -3,6 +3,8 @@ import HomePage from "./pages/HomePage";
 import { Outlet, RouterProvider } from "react-router";
 import NavBar from "./layouts/NavBar";
 import Footer from "./layouts/Footer";
+import Details from "./pages/Details";
+import Store from "./pages/Store";
 
 const Layout = () => {
     return (
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <HomePage />,
+            },
+            {
+                path: "cameras/",
+                element: <Store />,
+            },
+            {
+                path: "cameras/:id/",
+                element: <Details />,
             },
         ],
     },
