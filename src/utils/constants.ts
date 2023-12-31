@@ -48,7 +48,9 @@ export const HomeGridItems = [
     },
     {
         img_url: "hero_2.jpg",
-        className: "col-span-2 max-md:col-span-4 min-h-[300px]",
+        img_url2: "/37.jpg",
+        camera: {id: 6, title: "Voigtlander Bessa R4A"},
+        className: "col-span-2 max-md:col-span-4 min-h-[300px] relative",
     },
     {
         img_url: "frame_time.svg",
@@ -56,6 +58,8 @@ export const HomeGridItems = [
     },
     {
         img_url: "1.jpg",
+        img_url2: "/35.jpg",
+        camera: {id: 7, title: "Mamiya 7 II"},
         className: "col-span-1 max-md:col-span-2 min-h-[350px]",
     },
     {
@@ -67,17 +71,16 @@ export const HomeGridItems = [
         text: [
             {
                 paragraph:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua.",
+                    "В каждом кадре плёночной фотографии укромится капля нежности, словно мгновение, которое решает остаться в сердце вечно.",
+                className: "text-[15px] max-md:text-[12px]",
+            },  
+            {
+                paragraph:
+                    "Сделайте кадр, чтобы ваши эмоции взорвались красками, а воспоминания тепло обволакивали вашу душу.",
                 className: "text-[15px] max-md:text-[12px]",
             },
             {
-                paragraph:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Vitae elementum curabitur vitae nunc. Nasceturridiculus mus mauris vitae ultricies leo integer malesuadanunc.",
-                className: "text-[15px] max-md:text-[12px]",
-            },
-            {
-                paragraph:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                paragraph: "Плёнки – ключ к весёлым воспоминаниям",
                 className: "text-[15px] max-md:text-[12px]",
             },
         ],
@@ -117,18 +120,25 @@ export const HomeGridItems = [
         text: [
             {
                 paragraph:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magnaaliqua. Vitae elementum curabitur vitae nunc. Nasceturridiculus mus mauris vitae ultricies leo integer malesuadanunc.",
+                    "В мире цифровых технологий, где каждый момент запечатлен на смартфонах, плёночные фотоаппараты вносят долю волшебства и тепла в нашу фотографическую память. Создавая неповторимую атмосферу, они позволяют почувствовать магию момента, вдохновляясь прошлыми временами.",
                 className: "text-[15px] max-md:text-[12px]",
             },
             {
                 paragraph:
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod temporin ididunt ut labore etd olore magnaaliqua.",
+                    "Плёночные фотографии не просто фиксируют события – они создают настроение, добавляют текстуру и глубину. Этот возврат к классическим методам фотографии приносит с собой ощущение аутентичности и индивидуальности. В эпоху, где все мгновения становятся быстро забытыми, плёночная фотография возвращается как способ сохранить важные моменты в жизни в настоящем и сохранить их на долгие годы.",
+                className: "text-[15px] max-md:text-[12px]",
+            },
+            {
+                paragraph:
+                    "Возвращение интереса к плёночным фотоаппаратам — это не просто модный тренд, но и стремление снова оценить каждый кадр, вложить в него частичку души и оставить след в истории своей жизни.",
                 className: "text-[15px] max-md:text-[12px]",
             },
         ],
     },
     {
         img_url: "8.jpg",
+        img_url2: "/36.jpg",
+        camera: {id: 5, title: "Pentax 6×7"},
         className: "col-span-1 max-md:col-span-2",
     },
     {
@@ -151,6 +161,8 @@ export const HomeGridItems = [
     },
     {
         img_url: "15.jpg",
+        img_url2: "/12.jpg",
+        camera: {id: 2, title: "Nikon F70"},
         className: "col-span-1 max-md:col-span-2",
     },
     {

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 interface StoreItemProps {
-    id: number;
+    id?: number;
     image: string;
     title: string;
     className?: string;

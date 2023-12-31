@@ -13,7 +13,7 @@ import { Menu } from "lucide-react";
 
 const NavBar: React.FC = () => {
     return (
-        <header className="flex justify-between py-4 sticky top-0 bg-white">
+        <header className="flex justify-between py-4 sticky top-0 bg-white z-50">
             <Link className="hover:underline" to={"/"}>
                 <h1>Время Кадра</h1>
             </Link>
@@ -31,7 +31,6 @@ const NavBar: React.FC = () => {
                     корзина
                 </Link>
             </div>
-
             <div className="md:hidden">
                 <DropdownMenu>
                     <DropdownMenuTrigger>
