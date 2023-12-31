@@ -14,10 +14,7 @@ const Details: React.FC = () => {
                 <p className="max-md:text-[15px]">{item[0]?.title}</p>
             </div>
             <div className="col-span-1  w-auto max-md:col-span-2">
-                <img
-                    className="w-full h-full"
-                    src={item[0]?.images[0]}
-                />
+                <img className="w-full h-full" src={item[0]?.images[0]} />
             </div>
             <div className="col-span-2 min-h-[350px]">
                 <img
