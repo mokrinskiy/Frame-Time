@@ -8,7 +8,7 @@ import Store from "./pages/Store";
 
 const Layout = () => {
     return (
-        <div className="mx-4 max-md:mx-2">
+        <div className="mx-4 max-md:mx-4">
             <NavBar />
             <Outlet />
             <Footer />

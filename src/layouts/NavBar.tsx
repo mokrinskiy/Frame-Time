@@ -7,14 +7,14 @@ const NavBar: React.FC = () => {
             <Link to={"/"}>
                 <h1>Время Кадра</h1>
             </Link>
-            <div className="space-x-7 max-sm:space-x-4 max-sm:hidden">
+            <div className="space-x-7 max-sm:space-x-4 max-md:hidden">
                 <Link to={"/cameras"}>магазин</Link>
                 <Link to={"/"}>о нас</Link>
                 <Link to={"/"}>контакты</Link>
                 <Link to={"/"}>корзина</Link>
             </div>
-            <div className="sm:hidden">
-                Menu
+            <div className="md:hidden">
+                <Link to={"/cameras"}>магазин</Link>
             </div>
         </header>
     );

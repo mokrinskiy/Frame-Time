@@ -17,7 +17,7 @@ const StoreItem: React.FC<StoreItemProps> = ({
     return (
         <Link to={`/cameras/${id}`} id={title} className={className}>
             <img className="w-full h-full object-cover" src={image} />
-            <p>{title}</p>
+            <p className="max-md:text-[12px]">{title}</p>
         </Link>
     );
 };
