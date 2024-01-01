@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 const Store: React.FC = () => {
     return (
         <div className="flex justify-between gap-4">
-            <div className="h-[0px] top-[56px] min-w-[70px] left-0  sticky flex flex-col">
+            <div className="h-[0px] top-[56px] min-w-[70px] left-0  sticky flex flex-col ml-4">
                 {cameras.map((item) => (
                     <Link
                         to={`/cameras/${item.id}`}
-                        className="max-md:text-[12px] w-full"
+                        className="max-md:text-[12px] w-full mb-2 underline list-item"
                     >
                         {item.title}
                     </Link>

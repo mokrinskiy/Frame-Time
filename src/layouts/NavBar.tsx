@@ -13,7 +13,7 @@ import { Menu } from "lucide-react";
 
 const NavBar: React.FC = () => {
     return (
-        <header className="flex justify-between py-4 sticky top-0 bg-white z-50">
+        <header className="flex justify-between z-10 py-4 sticky top-0 bg-white items-center">
             <Link className="hover:underline" to={"/"}>
                 <h1>Время Кадра</h1>
             </Link>
