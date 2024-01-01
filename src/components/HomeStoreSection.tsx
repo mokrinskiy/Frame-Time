@@ -11,7 +11,7 @@ const HomeStoreSection: React.FC = () => {
                     image={item.images[0]}
                     key={index}
                     {...item}
-                ></StoreItem>
+                />
             ))}
             <StoreItem
                 className="col-span-1 mb-40 max-md:col-span-2 h-[300px] w-auto max-md:h-[150px]"

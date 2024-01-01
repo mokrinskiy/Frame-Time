@@ -53,10 +53,6 @@ export const HomeGridItems = [
         className: "col-span-2 max-md:col-span-4 min-h-[300px] relative",
     },
     {
-        img_url: "frame_time.svg",
-        className: "col-span-4 mb-20",
-    },
-    {
         img_url: "1.jpg",
         img_url2: "/35.jpg",
         camera: {id: 7, title: "Mamiya 7 II"},
@@ -72,12 +68,12 @@ export const HomeGridItems = [
             {
                 paragraph:
                     "В каждом кадре плёночной фотографии укромится капля нежности, словно мгновение, которое решает остаться в сердце вечно.",
-                className: "text-[15px] max-md:text-[12px]",
+                className: "text-[15px] max-md:text-[12px] mb-5",
             },  
             {
                 paragraph:
                     "Сделайте кадр, чтобы ваши эмоции взорвались красками, а воспоминания тепло обволакивали вашу душу.",
-                className: "text-[15px] max-md:text-[12px]",
+                className: "text-[15px] max-md:text-[12px] mb-5",
             },
             {
                 paragraph: "Плёнки – ключ к весёлым воспоминаниям",
@@ -116,17 +112,17 @@ export const HomeGridItems = [
     },
     {
         className:
-            "col-span-2 max-md:col-span-4 flex flex-col justify-center space-y-5",
+            "col-span-2 max-md:col-span-4 flex flex-col items-center justify-end space-y-5",
         text: [
             {
                 paragraph:
                     "В мире цифровых технологий, где каждый момент запечатлен на смартфонах, плёночные фотоаппараты вносят долю волшебства и тепла в нашу фотографическую память. Создавая неповторимую атмосферу, они позволяют почувствовать магию момента, вдохновляясь прошлыми временами.",
-                className: "text-[15px] max-md:text-[12px]",
+                className: "text-[15px] max-md:text-[12px] mb-5",
             },
             {
                 paragraph:
                     "Плёночные фотографии не просто фиксируют события – они создают настроение, добавляют текстуру и глубину. Этот возврат к классическим методам фотографии приносит с собой ощущение аутентичности и индивидуальности. В эпоху, где все мгновения становятся быстро забытыми, плёночная фотография возвращается как способ сохранить важные моменты в жизни в настоящем и сохранить их на долгие годы.",
-                className: "text-[15px] max-md:text-[12px]",
+                className: "text-[15px] max-md:text-[12px] mb-5",
             },
             {
                 paragraph:
